@@ -42,7 +42,7 @@ Users can enter patient health parameters, generate mathematical cardiovascular 
 ### About Project
 
 <p align="center">
-  <img src="screenshots/about-project.png" width="700">
+  <img src="screenshots/about-project.png" width="400">
 </p>
 
 # Project Architecture
