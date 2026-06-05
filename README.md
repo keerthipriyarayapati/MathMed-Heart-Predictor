@@ -19,21 +19,21 @@ This project integrates:
 
 Users can enter patient health parameters, generate mathematical cardiovascular indicators, and obtain real-time heart disease risk predictions through an intuitive analytics dashboard.
 
-## 📷 Application Preview
+## Application Preview
 
-### 🏠 Prediction Module
+### Prediction Module
 
-"C:\Users\Keerthi Priya\OneDrive\Pictures\Screenshots\screenshots\prediction-tab.png"
+![Prediction Tab](screenshots/prediction-tab.png)
 
-### 📊 Analytics Dashboard
+### Analytics Dashboard
 
 ![Analytics Dashboard](screenshots/analytics-dashboard.png)
 
-### ℹ️ About Project
+### About Project
 
 ![About Project](screenshots/about-project.png)
 
-# 🏗️ Project Architecture
+# Project Architecture
 
 ## Phase 1 — Mathematical Modeling
 
