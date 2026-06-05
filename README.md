@@ -23,40 +23,72 @@ Users can enter patient health parameters, generate mathematical cardiovascular 
 
 ### Prediction Module
 
-![Prediction Tab](screenshots/prediction-tab.png)
+<table>
+<tr>
+<td align="center">
+<b>Prediction Module</b><br>
+<img src="screenshots/prediction-tab.png" width="400">
+</td>
 
 ### Analytics Dashboard
 
-![Analytics Dashboard](screenshots/analytics-dashboard.png)
+<td align="center">
+<b>Analytics Dashboard</b><br>
+<img src="screenshots/analytics-dashboard.png" width="400">
+</td>
+</tr>
+</table>
 
 ### About Project
 
-![About Project](screenshots/about-project.png)
+<p align="center">
+  <img src="screenshots/about-project.png" width="700">
+</p>
 
 # Project Architecture
 
 ## Phase 1 — Mathematical Modeling
 
-Mathematical features were engineered to represent cardiovascular characteristics:
+### Mathematical Foundation
 
-### BP/Chol Ratio
+This project began with the exploration of mathematical concepts from **Vector Calculus** to understand cardiovascular flow behavior.
+
+The study investigated:
+
+- Vector Magnitude
+- Curl (Conceptual Study)
+- Divergence (Conceptual Study)
+- Flow Representation
+
+These concepts were explored to examine how blood-flow behavior could be mathematically represented and translated into meaningful healthcare indicators.
+
+Although Curl and Divergence were not directly used in the final machine learning model, they provided the mathematical foundation for developing engineered cardiovascular features.
+
+### Mathematical Feature Engineering
+
+Based on these mathematical investigations, the following features were developed:
+
+#### BP/Chol Ratio
 
 Represents the relationship between blood pressure and cholesterol levels.
 
-### Age-BP Index
+#### Age-BP Index
 
 A composite cardiovascular indicator derived from age and resting blood pressure.
 
-### Flow Magnitude
+#### Flow Magnitude
 
-Inspired by vector magnitude principles:
+Inspired by vector magnitude principles, Flow Magnitude was introduced as a simplified cardiovascular flow indicator:
 
 ```math
 Flow = \sqrt{BP^2 + HeartRate^2}
 ```
 
-These engineered features were integrated into the machine learning pipeline to enhance predictive capability.
+These engineered features were integrated into the machine learning pipeline alongside traditional clinical parameters.
 
+### Outcome of Phase 1
+
+The mathematical modeling phase established a bridge between theoretical vector-calculus concepts and practical healthcare analytics, enabling the creation of meaningful features for cardiovascular risk prediction.
 ## Phase 2 — Data Analytics
 
 Performed exploratory data analysis using the Heart Disease Dataset.
@@ -194,6 +226,7 @@ The deployed application provides:
 MathMed-Heart-Predictor/
 │
 ├── app.py
+├── integrating_mathematics_and_medicine.ipynb
 ├── requirements.txt
 ├── heart_disease_rf_model.pkl
 ├── scaler.pkl
@@ -204,6 +237,20 @@ MathMed-Heart-Predictor/
     ├── analytics-dashboard.png
     └── about-project.png
 ```
+# Jupyter Notebook
+
+The repository includes a Jupyter Notebook documenting the complete project workflow:
+
+- Mathematical Modeling using Vector Calculus concepts
+- Feature Engineering
+- Exploratory Data Analysis
+- Correlation Analysis
+- Machine Learning Development
+- Model Evaluation
+- Deployment Preparation
+
+The notebook serves as the research and development component of the project and provides detailed insights into the methodology behind the deployed application.
+
 
 # Installation
 
